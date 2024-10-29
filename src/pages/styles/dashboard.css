@@ -1,0 +1,96 @@
+/* styles/Dashboard.css */
+
+.dashboard-container {
+    padding: 16px; /* Adjust padding as needed */
+  }
+  
+  .dashboard-main {
+    margin-top: 20px; /* Space above main content */
+  }
+  
+  .welcome-section {
+    margin-bottom: 32px; /* Space below welcome section */
+  }
+  
+  .intro {
+    text-align: center; /* Center intro text */
+  }
+  
+  .welcome-title {
+    font-size: 28px; /* Title size */
+    font-weight: bold; /* Title weight */
+  }
+  
+  .welcome-description {
+    font-size: 16px; /* Description size */
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around; /* Evenly space stats */
+    margin-bottom: 32px; /* Space below stats */
+  }
+  
+  .stat-item {
+    text-align: center; /* Center stat text */
+  }
+  
+  .stat-value {
+    font-size: 24px; /* Value size */
+    font-weight: bold; /* Value weight */
+  }
+  
+  .stat-label {
+    font-size: 14px; /* Label size */
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between; /* Space between donor and NGO services */
+    margin-bottom: 32px; /* Space below services section */
+  }
+  
+  .services-title {
+    font-size: 20px; /* Services section title size */
+    font-weight: bold; /* Services section title weight */
+  }
+  
+  .services-list {
+    list-style-type: none; /* Remove list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .how-it-works-section {
+    margin-bottom: 32px; /* Space below how it works section */
+  }
+  
+  .how-it-works-title {
+    font-size: 20px; /* How it works section title size */
+    font-weight: bold; /* How it works section title weight */
+  }
+  
+  .how-it-works-steps {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Single column layout */
+    gap: 16px; /* Gap between steps */
+  }
+  
+  .step-item {
+    border: 1px solid #e5e7eb; /* Light border around steps */
+    padding: 16px; /* Padding for each step */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .step-number {
+    font-size: 24px; /* Step number size */
+    font-weight: bold; /* Step number weight */
+  }
+  
+  .step-title {
+    font-size: 18px; /* Step title size */
+  }
+  
+  .step-description {
+    font-size: 14px; /* Step description size */
+  }
+  

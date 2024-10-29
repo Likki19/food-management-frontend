@@ -1,0 +1,61 @@
+/* header.css */
+.header {
+    background-color: #f8f9fa; /* Light background color for the header */
+    padding: 10px 20px; /* Padding around the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .header-container {
+    max-width: 1200px; /* Limit the maximum width of the header */
+    margin: 0 auto; /* Center the header */
+  }
+  
+  .header-nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between navigation links */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .nav-links {
+    display: flex; /* Flexbox for navigation links */
+    gap: 20px; /* Space between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Blue color for links */
+    padding: 10px 15px; /* Padding for links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .nav-links a.active {
+    background-color: #007bff; /* Blue background for active link */
+    color: #fff; /* White text for active link */
+  }
+  
+  .nav-links a.inactive {
+    background-color: transparent; /* Transparent background for inactive link */
+    color: #007bff; /* Blue text for inactive link */
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+  }
+  
+  .logout-button {
+    padding: 10px 15px; /* Padding for the logout button */
+    font-size: 16px; /* Font size */
+    color: #fff; /* White text */
+    background-color: #dc3545; /* Red background for the logout button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
